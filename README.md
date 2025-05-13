@@ -1,61 +1,38 @@
-# 💱 Conversor de Moedas em Java
+# 💱 Conversor de Moedas
 
-Um aplicativo simples de conversão de moedas com suporte a múltiplos idiomas, integração com uma API de câmbio e histórico de conversões. Ideal para praticar Java, API REST, internacionalização (i18n) e boas práticas de terminal interativo.
-
----
+Este é um projeto em Java para conversão de moedas, utilizando uma API para obter taxas de câmbio atualizadas. Ele permite ao usuário escolher o idioma (Português ou Inglês), realizar conversões e visualizar o histórico das transações.
 
 ## 🚀 Funcionalidades
 
-- ✅ Conversão em tempo real de uma moeda para outra.
-- 🌍 Suporte a múltiplos idiomas (Português 🇧🇷 e Inglês 🇺🇸).
-- 📈 Histórico das últimas conversões realizadas.
-- 🧾 Validação de entrada do usuário.
-- 🔗 Integração com a [ExchangeRate API](https://www.exchangerate-api.com/).
+- 🔄 Conversão entre moedas
+- 📜 Histórico das conversões realizadas
+- 🧾 Interface de linha de comando amigável
 
----
-
-## 🎥 Demonstração
-
-<img src="https://user-images.githubusercontent.com/your-github/terminal-demo.gif" alt="Demonstração no terminal" width="700"/>
-
----
-
-## 🛠️ Tecnologias usadas
+## 🛠️ Tecnologias Utilizadas
 
 - Java 17+
-- API HTTP nativa (`java.net.http.HttpClient`)
-- Internacionalização com `ResourceBundle`
-- Terminal interativo com `Scanner`
-- Estilização ANSI para saída formatada
+- API de câmbio (Ex: exchangerate.host)
+- Biblioteca GSON
+- Formatação personalizada de saída
 
----
+## 📂 Estrutura do Projeto
 
-## 📦 Estrutura do projeto
-
+```text
 conversorDeMoedas/
 ├── src/
-│ ├── ApiCliente.java
-│ ├── ConversorMoedas.java
-│ ├── EntradaUsuario.java
-│ ├── SaidaFormatada.java
-│ ├── HistoricoConversoes.java
-│ ├── Principal.java
-│ ├── Mensagens.java
-│ └── resources/
-│ ├── mensagens_pt.properties
-│ └── mensagens_en.properties
+│   ├── ApiCliente.java
+│   ├── ConversorMoedas.java
+│   ├── EntradaUsuario.java
+│   ├── SaidaFormatada.java
+│   ├── HistoricoConversoes.java
+│   ├── Principal.java
+│   ├── Mensagens.java
+│   └── resources/
+│       ├── mensagens_pt.properties
+│       └── mensagens_en.properties
 ├── README.md
 └── .gitignore
 
-
----
-
-## 📋 Como executar
-
-1. Clone o repositório:
-   ```bash
-   git clone https://github.com/seu-usuario/conversorDeMoedas.git
-   cd conversorDeMoedas
 
 🧠 Melhorias futuras
 Interface gráfica (GUI com JavaFX ou Swing)
@@ -71,6 +48,7 @@ Patrícia Starck Bernardi
 
 📫 LinkedIn
 https://www.linkedin.com/in/patricia-starck-bernardi/
+
 💻 Projeto criado com fins educacionais no curso da Alura + Oracle ONE
 
 📄 Licença

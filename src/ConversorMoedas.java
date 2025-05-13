@@ -3,10 +3,10 @@ import com.google.gson.JsonParser;
 
 import java.io.IOException;
 
-public class ConversorDeMoedas {
+public class ConversorMoedas {
     private ApiCliente apiCliente;
 
-    public ConversorDeMoedas(ApiCliente apiCliente) {
+    public ConversorMoedas(ApiCliente apiCliente) {
         this.apiCliente = apiCliente;
     }
 
